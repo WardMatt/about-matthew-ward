@@ -1,12 +1,30 @@
 li {
-    list-style-type: decimal;
+    list-style-type: none;
+    color: darkolivegreen;
 }
 h1 {
     color: green;
+    text-align: center;
 }
 img {
-     ;
+    alignment: center;
 }
-body {
-    color: crimson;
+.center {
+    width: 100%;
+    margin: auto;
+    text-align: center;
 }
+p {
+    color: black;
+    text-align: center;
+}
+footer {
+    width: border-box;
+    position: fixed;
+    justify-content: center;
+    padding: 5px;
+    background-color: aqua;
+    height: 115px;
+}
+
+
