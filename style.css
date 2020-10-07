@@ -10,8 +10,10 @@ img {
     alignment: center;
 }
 .center {
-    width: 100%;
-    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     text-align: center;
 }
 p {
@@ -19,6 +21,7 @@ p {
     text-align: center;
 }
 footer {
+    display: flex;
     width: border-box;
     position: fixed;
     justify-content: center;
